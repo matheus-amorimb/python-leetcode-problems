@@ -70,24 +70,3 @@ class Solution:
         word_aux = ''.join([a + b for a, b in zip(word1, word2)]).replace(' ', '')
 
         return word_aux
-    
-        # if word1_len == word2_len:
-        #     for i in range(word1_len):
-        #         word_aux += word1[i]
-        #         word_aux += word2[i]
-        #     return word_aux
-        
-        # else:
-        #     if word1_len > word2_len:
-        #         word_greater = word1
-        #         word_lower = word2
-        #     else:
-        #         word_greater = word2
-        #         word_lower = word1
-
-        #     i = 0
-        #     while i <= len(word_lower) - 1:
-        #         word_aux += word1[i]
-        #         word_aux += word2[i]
-        #         i += 1
-        #     word_aux += word_greater[i:]
