@@ -35,8 +35,14 @@ def test_strX_contains_partial_strY():
     obj = Solution()
     assert 'AB' ==  obj.gcdOfStrings(str1, str2)
 
-def test_strX_not_contains_strY():
-    str1 = 'LEET'
-    str2 = 'CODE'
+def test_():
+    str1 = 'TAUXXTAUXXTAUXXTAUXXTAUXX'
+    str2 = 'TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX'
+    obj = Solution()
+    assert 'TAUXX' ==  obj.gcdOfStrings(str1, str2)
+
+def test_2():
+    str1 = 'AAAAAAAAA'
+    str2 = 'AAACCC'
     obj = Solution()
     assert '' ==  obj.gcdOfStrings(str1, str2)

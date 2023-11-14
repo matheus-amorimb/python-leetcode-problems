@@ -41,8 +41,7 @@ class Solution:
     
     @timing_decorator
     def mergeAlternately(self, word1: str, word2: str):
-        word1_len = len(word1)
-        word2_len = len(word2)
+        word1_len, word2_len = len(word1), len(word2)
         word_aux = ''
         
         if word1_len < 1:
