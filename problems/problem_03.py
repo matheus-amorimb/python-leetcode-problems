@@ -4,6 +4,7 @@ class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
 
         my_list = []
+        my_list2 = []
 
         for index, kid in enumerate(candies):
             my_list.append(True)
